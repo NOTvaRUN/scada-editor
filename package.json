@@ -1,0 +1,15 @@
+{
+  "name": "scada-editor",
+  "version": "0.0.5",
+  "description": "This package contains mxGraph library and graph editor in a nutshell along with graph editor's type definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scada",
+    "grapheditor-npm"
+  ],
+  "author": "varun",
+  "license": "ISC"
+}
