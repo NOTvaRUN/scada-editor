@@ -1760,3 +1760,15 @@ td.mxPopupMenuIcon {
 	height: 20px;
 	color: #676767;
 }
+.mxPopupMenu table tbody .mxPopupMenuItem:first-child .mxDisabled {
+    background: #0000000d;
+    color: #ada9a9;
+    opacity: 1 !important;
+    pointer-events: none;
+}
+.geMenubarMenu table tbody .mxPopupMenuItem:first-child .mxDisabled{
+	background: white;
+	opacity: 0.2!important;
+	pointer-events: all;
+	color: black;
+}

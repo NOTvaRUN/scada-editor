@@ -9,15 +9,26 @@ And the original editor is available in javascript [here](https://github.com/jgr
 
 A good example of this editor is [draw.io](https://app.diagrams.net/)
 
+
+
+## static url's keep the images from grapheditor
+---
+```
+mxClient.basePath="/assets/library/scada";
+mxClient.imageBasePath="/assets/library/scada/resources/images/"
+```
 ###  Component 
+---
 ```
 import * as _scada from 'scada-editor/index';
 ```
+---
 
 ### import scada.css into your angular.json
+---
 
 ### Required Variables
-
+---
 ```
 window
     STENCIL_PATH
@@ -26,6 +37,7 @@ window
 ```
 
 ### initialization
+---
 
 ```
 _scada.mxUtils.getAll(
