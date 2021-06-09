@@ -5,13 +5,13 @@ Original editor can be found in the above link.
 
 And the original editor is available in javascript [here](https://github.com/jgraph/mxgraph).
 
-*Note : this package still uses JS to render the DOM. Type definitions are provided to modify the contents in typescript instead of overriding them in js*
+*Note : this package still uses JS to render the DOM. Type definitions are provided to modify the contents in typescript instead of overriding them in js , this is still in the alpha stage of development.*
 
 A good example of this editor is [draw.io](https://app.diagrams.net/)
 
 
 
-## static url's keep the images from grapheditor
+## static url's, images from grapheditor repo goes here.
 ---
 ```
 mxClient.basePath="/assets/library/scada";
@@ -57,6 +57,6 @@ _scada.mxUtils.getAll(
         );
     },
     () => {
-        **Failed Toaster**
+        error
         }
     );

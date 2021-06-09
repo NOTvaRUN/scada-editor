@@ -1770,5 +1770,11 @@ td.mxPopupMenuIcon {
 	background: white;
 	opacity: 0.2!important;
 	pointer-events: all;
-	color: black;
+	color: blacśk;
+}
+div.mxWindow{
+	z-index:4!important;
+}
+.mxPopupMenu * {
+	box-sizing: content-box;
 }
