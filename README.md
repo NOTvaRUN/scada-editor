@@ -1,17 +1,10 @@
 # [Grapheditor](https://jgraph.github.io/mxgraph/javascript/examples/grapheditor/www/index.html) for Angular.
 
 This package contains an editor along with all the required type definitions to modify the editors view to the given requirements.
-Original editor can be found in the above link.
 
 And the original editor is available in javascript [here](https://github.com/jgraph/mxgraph).
 
-*Note : this package still uses JS to render the DOM. Type definitions are provided to modify the contents in typescript instead of overriding them in js , this is still in the alpha stage of development.*
-
-A good example of this editor is [draw.io](https://app.diagrams.net/)
-
-
-
-## static url's, images from grapheditor repo goes here.
+## static url's to place the images from grapheditor
 ---
 ```
 mxClient.basePath="/assets/library/scada";
@@ -23,11 +16,12 @@ mxClient.imageBasePath="/assets/library/scada/resources/images/"
 import * as _scada from 'scada-editor/index';
 ```
 ---
+Download mxGraph [typeDefinitions](https://www.npmjs.com/package/mxgraph-type-definitions) and store it in a folder that will not be included in build.
 
 ### import scada.css into your angular.json
 ---
 
-### Required Variables
+### Declare Variables (go through grapheditor github package for a better understanding on what resources are required.)
 ---
 ```
 window
@@ -57,6 +51,39 @@ _scada.mxUtils.getAll(
         );
     },
     () => {
-        error
+        **Failed Toaster**
         }
     );
+```
+
+### Screenshots
+
+```Place where you can create flow charts.```
+![https://i.ibb.co/pxKfrcK/Screenshot-1.jpg](https://i.ibb.co/pxKfrcK/Screenshot-1.jpg)
+
+
+```Let your creativity flow```
+![https://i.ibb.co/yNGhYZv/Screenshot-2.jpg](https://i.ibb.co/yNGhYZv/Screenshot-2.jpg)
+
+### customize it with your heart's content with the help of type definitions following diagram shows **examples** for the possiblities of customization.
+
+# Important :
+<ul style="background:#eee;">
+    <li><h4 style="color:red;font-weight:500">Current package does not include ways to convert the editor into the images shown below.</h2></li>
+    <li><h4 style="color:red; font-weight:500">The websites below do not use this npm package nor are they in angular.</h2></li>
+    <li><h4 style="color:red;font-weight:500">But they use the editor that is provided as a base and have build on it.So you can customize it as required.</h2></li>
+</ul>
+
+
+#  [draw.io](https://app.diagrams.net/)
+![https://i.ibb.co/7Sqw0Sr/Screenshot-3.jpg](https://i.ibb.co/7Sqw0Sr/Screenshot-3.jpg)
+
+#  [Visual design paradigm](https://online.visual-paradigm.com/)
+![https://i.ibb.co/4RZ8qpD/Screenshot-4.jpg](https://i.ibb.co/4RZ8qpD/Screenshot-4.jpg)
+
+## Development repo for this package is included [here](https://github.com/NOTvaRUN/scada-editor-dev) feel free to submit issues or fork it and create your own version of this package.
+https://github.com/NOTvaRUN/scada-editor-dev
+
+# Good luck
+
+![https://media3.giphy.com/media/citBl9yPwnUOs/giphy.gif?cid=ecf05e47zt5kb8p4a6l1szj3ttbbsw644umsw5qrj12hp5lr&rid=giphy.gif&ct=g](https://media3.giphy.com/media/citBl9yPwnUOs/giphy.gif?cid=ecf05e47zt5kb8p4a6l1szj3ttbbsw644umsw5qrj12hp5lr&rid=giphy.gif&ct=g)

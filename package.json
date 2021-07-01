@@ -1,23 +1,29 @@
 {
-  "name": "scada-editor",
-  "version": "0.0.8",
-  "description": "This package contains mxGraph library and graph editor in a nutshell along with graph editor's type definitions",
+  "name": "flowchart-diagram-editor",
+  "version": "0.1.0",
+  "description": "Grapheditor built as npm. Hello Angular.!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NOTvaRUN/scada-editor.git"
   },
   "keywords": [
-    "scada",
-    "grapheditor-npm",
+    "flowchart",
     "sld",
-    "diagram-editor",
-    "flowchart-angular"
+    "grapheditor",
+    "svg",
+    "diagram",
+    "draw",
+    "graph",
+    "visualization",
+    "shapes",
+    "tree",
+    "typedefinition"
   ],
-  "author": "varun",
+  "author": "NOTvaRUN",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NOTvaRUN/scada-editor/issues"

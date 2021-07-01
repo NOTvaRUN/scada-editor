@@ -1643,19 +1643,6 @@ padding: 6px 0px 1px;
 .geMenubar {
     text-align: end;
 }
-.scada-sidebar {
-    /* height: calc(100% - 12.2%); */
-}
-.geDiagramContainer{
-    /* inset: 69px 240px 0px 224px!important; */
-}
-.scada-format{
-    /* bottom: 0px!important; */
-}
-/* .geMenubarContainer{
-    background: #e9eaed;
-    border-top: 1px solid #d6d6d6;
-} */
 .geMenubarContainer .geItem, .geToolbar .geItem {
     margin: 1.5px 3px 3px 6px;
     padding: 3px;
@@ -1770,11 +1757,24 @@ td.mxPopupMenuIcon {
 	background: white;
 	opacity: 0.2!important;
 	pointer-events: all;
-	color: blacśk;
+	color: black;
 }
 div.mxWindow{
 	z-index:4!important;
 }
 .mxPopupMenu * {
 	box-sizing: content-box;
+}
+.mxPopupMenu .mxPopupMenuItem .mxDisabled{
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.geToolbarMenu {
+    max-height: 100vh;
+    overflow: auto;
+    min-width: 35px;
+}
+.geDialog input{
+    margin-top: 10px;
 }
