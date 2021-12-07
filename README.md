@@ -5,21 +5,34 @@ This package contains an editor along with all the required type definitions to 
 And the original editor is available in javascript [here](https://github.com/jgraph/mxgraph).
 
 ## static url's to place the images from grapheditor
----
-```
+```ts
 mxClient.basePath="/assets/library/scada";
 mxClient.imageBasePath="/assets/library/scada/resources/images/"
 ```
 ###  Component 
----
-```
+```ts
 import * as _scada from 'scada-editor/index';
 ```
----
 Download mxGraph [typeDefinitions](https://www.npmjs.com/package/mxgraph-type-definitions) and store it in a folder that will not be included in build.
 
-### import scada.css into your angular.json
----
+### import `scada.css` into your `angular.json`
+
+```json
+        "build": {
+          "options": {
+            "styles": [
+              "node_modules/flowchart-diagram-editor/scada.css"
+            ]
+          },
+         }
+        "development": {
+          "options": {
+            "styles": [
+              "node_modules/flowchart-diagram-editor/scada.css"
+            ]
+          },
+        },
+```
 
 ### Declare Variables (go through grapheditor github package for a better understanding on what resources are required.)
 ---
@@ -31,9 +44,7 @@ window
 ```
 
 ### initialization
----
-
-```
+```ts
 _scada.mxUtils.getAll(
     [
         _scada.mxResources.getDefaultBundle('.txt file for language', mxLanguage),
@@ -68,12 +79,11 @@ _scada.mxUtils.getAll(
 ### customize it with your heart's content with the help of type definitions following diagram shows **examples** for the possiblities of customization.
 
 # Important :
-<ul style="background:#eee;">
-    <li><h4 style="color:red;font-weight:500">Current package does not include ways to convert the editor into the images shown below.</h2></li>
-    <li><h4 style="color:red; font-weight:500">The websites below do not use this npm package nor are they in angular.</h2></li>
-    <li><h4 style="color:red;font-weight:500">But they use the editor that is provided as a base and have build on it.So you can customize it as required.</h2></li>
+<ul>
+  <li> <samp>Current package does not include ways to convert the editor into the images shown below.</samp> </li>
+  <li> <samp> The websites below do not use this npm package nor are they in angular</samp> </li>
+  <li> <samp>But they use the editor that is provided as a base and have build on it.So you can customize it as required.</samp></li>
 </ul>
-
 
 #  [draw.io](https://app.diagrams.net/)
 ![https://i.ibb.co/7Sqw0Sr/Screenshot-3.jpg](https://i.ibb.co/7Sqw0Sr/Screenshot-3.jpg)
