@@ -92,7 +92,10 @@ _scada.mxUtils.getAll(
 ![https://i.ibb.co/4RZ8qpD/Screenshot-4.jpg](https://i.ibb.co/4RZ8qpD/Screenshot-4.jpg)
 
 ## Development repo for this package is included [here](https://github.com/NOTvaRUN/scada-editor-dev) feel free to submit issues or fork it and create your own version of this package.
-https://github.com/NOTvaRUN/scada-editor-dev
+
+<img src="https://badges.aleen42.com/src/github.svg"/>
+
+`https://github.com/NOTvaRUN/scada-editor-dev`
 
 # Good luck
 
