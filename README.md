@@ -1,8 +1,8 @@
 # [Grapheditor](https://jgraph.github.io/mxgraph/javascript/examples/grapheditor/www/index.html) for Angular. <img src="https://badges.aleen42.com/src/javascript.svg"/> <img src="https://badges.aleen42.com/src/typescript.svg"/> 
 
-This package contains an editor along with all the required type definitions to modify the editors view to the given requirements.
-
-And the original editor is available in javascript [here](https://github.com/jgraph/mxgraph).
+<samp>This package contains an editor along with all the required type definitions to modify the editors view to the given requirements.
+And the original editor is available in javascript </samp> 
+[here](https://github.com/jgraph/mxgraph).
 
 
 
@@ -15,7 +15,9 @@ mxClient.imageBasePath="/assets/library/scada/resources/images/"
 ```ts
 import * as _scada from 'scada-editor/index';
 ```
-Download mxGraph [typeDefinitions](https://www.npmjs.com/package/mxgraph-type-definitions) and store it in a folder that will not be included in build.
+<samp>Download mxGraph</samp>
+[typeDefinitions](https://www.npmjs.com/package/mxgraph-type-definitions)
+<samp>and store it in a folder that will not be included in build.</samp>
 
 ### import `scada.css` into your `angular.json`
 
