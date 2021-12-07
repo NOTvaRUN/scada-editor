@@ -1,8 +1,10 @@
-# [Grapheditor](https://jgraph.github.io/mxgraph/javascript/examples/grapheditor/www/index.html) for Angular.
+# [Grapheditor](https://jgraph.github.io/mxgraph/javascript/examples/grapheditor/www/index.html) for Angular. <img src="https://badges.aleen42.com/src/javascript.svg"/> <img src="https://badges.aleen42.com/src/typescript.svg"/> 
 
 This package contains an editor along with all the required type definitions to modify the editors view to the given requirements.
 
 And the original editor is available in javascript [here](https://github.com/jgraph/mxgraph).
+
+
 
 ## static url's to place the images from grapheditor
 ```ts
