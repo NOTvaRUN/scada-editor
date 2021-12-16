@@ -1,12 +1,12 @@
-/// <reference path="./src/js/handler/index.d.ts"/>
-/// <reference path="./src/js/io/index.d.ts"/>
-/// <reference path="./src/js/layout/index.d.ts"/>
-/// <reference path="./src/js/layout/hierarchical/model/index.d.ts"/>
-/// <reference path="./src/js/layout/hierarchical/stage/index.d.ts"/>
-/// <reference path="./src/js/model/index.d.ts"/>
-/// <reference path="./src/js/shape/index.d.ts"/>
-/// <reference path="./src/js/util/index.d.ts"/>
-/// <reference path="./src/js/view/index.d.ts"/>
+/// <reference path="./js/handler/index.d.ts"/>
+/// <reference path="./js/io/index.d.ts"/>
+/// <reference path="./js/layout/index.d.ts"/>
+/// <reference path="./js/layout/hierarchical/model/index.d.ts"/>
+/// <reference path="./js/layout/hierarchical/stage/index.d.ts"/>
+/// <reference path="./js/model/index.d.ts"/>
+/// <reference path="./js/shape/index.d.ts"/>
+/// <reference path="./js/util/index.d.ts"/>
+/// <reference path="./js/view/index.d.ts"/>
 
 declare class mxResources {
 
