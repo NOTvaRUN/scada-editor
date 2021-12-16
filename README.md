@@ -1,8 +1,16 @@
 # [Grapheditor](https://jgraph.github.io/mxgraph/javascript/examples/grapheditor/www/index.html) for Angular. <img src="https://badges.aleen42.com/src/javascript.svg"/> <img src="https://badges.aleen42.com/src/typescript.svg"/> 
 
+
+
+
 <samp>This package contains an editor along with all the required type definitions to modify the editors view to the given requirements.
 And the original editor is available in javascript </samp> 
 [here](https://github.com/jgraph/mxgraph).
+
+
+
+<h1><samp>NOW SUPPORTS ANGULAR 11.x,12.x  </samp> <img src="https://img.icons8.com/emoji/96/000000/party-popper.png"/>
+</h1>
 
 
 
