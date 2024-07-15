@@ -9,7 +9,7 @@ And the original editor is available in javascript </samp>
 
 
 
-<h1><samp>NOW SUPPORTS ANGULAR 15.x,16.x,17.x,  </samp> <img src="https://img.icons8.com/emoji/96/000000/party-popper.png"/>
+<h1><samp>NOW SUPPORTS ANGULAR 16.x,17.x,  </samp> <img src="https://img.icons8.com/emoji/96/000000/party-popper.png"/>
 </h1>
 
 
